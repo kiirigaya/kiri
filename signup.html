@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+    <nav>
+        <div class="logo">
+           <h1>logo</h1>
+        </div>
+        <div class="navlinks">
+            <ul>
+
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="login.html">login</a></li>
+                
+
+            </ul>
+        </div>
+        <img src="images/hb11.jpg" class="hb" id="hb">
+    </nav>  
+    <form action="signup.php" method="post">
+     <div class="box_signup">
+        <div class="log">
+            <h2>sign up</h2>
+        </div>
+        <div class="el">
+            <label for="username">username</label><br>
+            <input name="username" id="username" type="text" placeholder=" YOUR EMAIL"required>
+        </div>
+        <div class="el">
+            <label for="email">email</label><br>
+            <input name="email" id="email" type="text" placeholder=" YOUR EMAIL"required>
+        </div>
+        <div class="el">
+            <label for="password">password</label><br>
+            <input name="password" id="password" type="password" placeholder=" YOUR PASSWORD"required>
+        </div>
+        <div class="el">
+            <label for="cpassword">re-enter password</label><br>
+            <input name="cpassword" id="password" type="password" placeholder=" YOUR PASSWORD "required>
+        </div>
+        
+        
+            <!-- <input type="button" id="btnsig" value="sign up" name="submit()"> -->
+            <button type="submit" name="submit" id="btnsig">sign up</button>
+       
+        <div class="sign">
+            already have an account <a href="login.html">log in?</a>
+        </div>
+     </div>
+    </form>
+
+    <div class="contact">
+        <p>email:mouhsintanani@gmail.com</p>
+        <p>email:terrabreda@gmail.com</p>
+        <p>num:+212687011468</p>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

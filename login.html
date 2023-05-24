@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form method="POST" action="login.php"> 
+    <nav>   
+        <div class="logo">
+           <h1>logo</h1>
+        </div>
+        <div class="navlinks" id="naglinks">
+            <ul>
+
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="signup.html">singup</a></li>
+                
+
+            </ul>
+        </div>
+        <img src="images/hb11.jpg" class="hb" id="hb">
+    </nav>  
+
+    <div class="box_login">
+        <form action="">
+
+        <div class="log">
+            <h1>log in </h1>
+        </div>
+        <div class="el">
+            <label for="email" >email</label><br>
+            <input name="email" id="email" type="text" placeholder=" YOUR EMAIL" required>
+        </div>
+        <div class="el">
+            <label for="password" >password</label><br>
+            <input name="password" id="password" type="password" placeholder=" YOUR PASSWORD" required>
+        </div>
+        
+      
+            <button type="submit" name="submit" id="btnlog">log in</button>
+            <!-- <input type="button" id="btnlog" value="login" name="submit()">  -->
+        
+        <div class="sign">
+            don't have an account <a href="signup.html">sign up ?</a>
+        </div>
+    
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
